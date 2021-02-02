@@ -5,8 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Práctica bloque 3</title>
     <link rel="stylesheet" href="style.css">
+    
+    <script>
+
+        function  apellido1() {
+            var nombre_variable = document.getElementById("nom").value;
+            var apellido_variable = document.getElementById("ape").value;
+            alert ("Bienvenido " + nombre_variable + " " + apellido_variable);
+
+        }
+    </script>
+
 </head>
 <body>
-    <h1 class="h1_azul">Práctica 3.1</h1>
+
+    <h1 class="h1_azul">Práctica bloque 3</h1>
+
+    Introduce nombre <input type="text" id="nom">
+    Introduce apellido1 <input type="text" id="ape" onchange="apellido1()">
+
 </body>
 </html>
